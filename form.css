@@ -1,0 +1,23 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(196, 217, 255, 0.856);
+}
+
+.sub--btn{
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-weight: bold;
+    background-color: rgb(0, 81, 255);
+    color: white;
+    border: none;
+    
+}
+
+label.error{
+    font-weight: 500;
+    display: block;
+    color: rgb(255, 51, 0);
+    font-size: small;
+    margin-top: 3.3rem;
+}

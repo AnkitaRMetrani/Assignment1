@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" rel="stylesheet">
+
+    <link href="form.css" rel="stylesheet">
+
+    <title>Responsive Form with jQuery Validation</title>
+
+
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script src="/node_modules/jquery-validation/dist/jquery.validate.min.js "></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+    <script src="form.js"></script>
+    
+</head>
+<body>
+    <div id="heading" class="container-fluid mt-3">
+        <h4 class="h4 text-center bg-primary text-white p-2">Registration Form</h4>
+    </div>
+    <div class="container col-sm-4 mx-auto mt-3">
+        
+        <form name="formvalidation" id="formvalidation" method="post">
+            <div id="name" class="form-floating  mb-4  ">
+                <input type="text" name="name" class="form-control" id="name" required>
+                <label for="name"> <strong> Name * </strong> </label>
+            </div>
+        
+            <div class="form-floating  mb-4">
+                <input type="email" name="email" class="form-control " id="email" autocomplete="off" required>
+                <label for="email"> <strong> Email * </strong> </label>
+            </div>
+
+            <div class="form-floating  mb-4">
+                <input type="text" name="phone" class="form-control " id="phone" required >
+                <label for="mobile"> <strong> Mobile No. * </strong> </label>
+            </div>
+
+            <div class="input-group date form-floating  mb-4 " id="" data-provide="datepicker" data-date-format="dd/mm/yyyy" data-date-end-date="0d">
+                <input type="text" class="form-control" id="dob" name="dob"   required>
+                <label for="dob"> <strong> DOB * </strong> </label>
+                <div class="input-group-addon">
+                    <span class="glyphicon glyphicon-th"></span>
+                </div>
+            </div>
+
+            <div class="form-floating  mb-4">
+                <input type="password" name="password" class="form-control " id="password" required >
+                <label for="email"> <strong> Password * </strong> </label>
+            </div>
+
+            <div class="form-floating  mb-4">
+                <input type="password" name="confirmpassword" class="form-control " id="confirmpassword" required >
+                <label for="email"> <strong> Confirm Password * </strong> </label>
+            </div>
+            <div class="text-center mt-4">
+                <input class="sub--btn" type="submit" value="Submit"> </input>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
+
+
+<!--
+    <div class="container overflow-hidden">
+  <div class="row gx-5">
+    <div class="col">
+     <div class="p-3 border bg-light">Custom column padding</div>
+    </div>
+    <div class="col">
+      <div class="p-3 border bg-light">Custom column padding</div>
+    </div>
+  </div>
+</div>
+-->
+
+ <!--
+                <small id="input--empty"> Name field required!</small><br>
+                <small id="input--num"> Only Characters allowed</small>
+
+            --> 
