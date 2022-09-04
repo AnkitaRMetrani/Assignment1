@@ -13,6 +13,9 @@ body{
     border: none;
     
 }
+.sub--btn:hover{
+    background-color: dimgray;
+}
 
 label.error{
     font-weight: 500;
