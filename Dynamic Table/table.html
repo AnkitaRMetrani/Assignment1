@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <title>Table Data</title>
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+
+    <script src="table.js"></script>
+
+    
+</head>
+<body>
+    <div class="container col-sm-6 mt-3">
+        <h2 class="h2">Generate Marksheet</h2>
+            <div class="row">
+                <div class="container m-3 pl-3 >">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="Name " class="form-control" id="name" required>
+                </div>
+                <div class="container m-3 pl-3 >">
+                    <label for="subject">Subject</label>
+                    <input type="text" placeholder="Subject " class="form-control" id="subject" required>
+                </div>
+                <div class="container m-3 pl-3 >">
+                    <label for="obt_marks">Marks Obtained</label>
+                    <input type="number" placeholder="Marks" class="form-control" id="obt_marks" required>
+                </div>
+                <div class="container m-3 pl-3 >">
+                    <input type="button" id="submiting"  class="btn btn-primary" value="Generate"></input>
+                </div>
+            </div>
+        <div class="container m-3 pl-3">
+            <caption><h2>Generated Results:</h2></caption>
+                <table id="tableresult" class="tale table-bordered table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Subject</th>
+                            <th>Marks</th>
+                            <th>Result</th>
+                        </tr>
+                       
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+</body>
+</html>
