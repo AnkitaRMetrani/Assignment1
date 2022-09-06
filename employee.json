@@ -1,0 +1,31 @@
+{
+    "employees":[
+        {
+            "id":"1",
+            "name":"AAA",
+            "email":"aaa@aaa",
+            "location":"Mumbai",
+            "mobile":"2345678910",
+            "age":"24",
+            "sex":"F"
+        },
+        {
+            "id":"2",
+            "name":"BBB",
+            "email":"bbb@bbb",
+            "location":"Delhi",
+            "mobile":"7894561230",
+            "age":"38",
+            "sex":"M"
+        },
+        {
+            "id":"3",
+            "name":"CCC",
+            "email":"",
+            "location":"Pune",
+            "mobile":"1234506789",
+            "age":"",
+            "sex":""
+        }
+    ]
+}
